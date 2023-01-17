@@ -1,0 +1,22 @@
+#box{
+    display: flex;
+}
+
+#box img{
+    width: 300px;
+    height: auto;
+}
+
+body button{
+    margin: 20px;
+    padding: 20px 60px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+body button:hover{
+    color: black;
+    background-color: rgb(167, 167, 167);
+    transition: 0.2s;
+}
